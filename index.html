@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="estilo.css">
+            <link rel="stylesheet" href="responsivo.css">
+            <link rel="stylesheet" href="estilo-sobrepor.css">
+            <link rel="stylesheet" href="sobrepoe.css">
+        </head>
+
+        <body>
+    
+            <div class="sobrepor sumir">
+
+                <div class="sobrepor-total">
+
+                    <h2 id="amount">Total: 0 Produtos</h2>
+
+                    <p id="dipirona"></p>
+                    <p id="inalador"></p>
+                    <p id="massageador"></p>
+                    <p id="domperidona"></p>
+
+                    <div>
+                        <h2>TOTAL:</h2>
+                        <h3 id="total"></h3>
+                    </div>
+
+                    <button id="close" onclick="Fechar()">Fechar</button>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <header>
+
+                    <div class="header-logo">
+                        <img src="fotos/png-transparent-pharmacy-logo-pharmaceutical-drug-pasteur-blue-drug-pharmacist-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="header-name">
+                        <h1>Sick Farma</h1>
+                    </div>
+
+                    <div class="header-shopping-cart">
+
+                        <img id="carrinho" onclick="Aparecer()" src="fotos/carrinho-removebg-preview.png" alt="">
+
+                        <h3 id="cash">0</h3>
+
+                    </div>
+
+                </header>
+
+                <section class="bar-blue"></section>
+
+                <section class="products">
+
+                    <div>
+                        
+                        <img src="fotos/dipirona-removebg-preview.png" alt="">
+
+                        <h3> $ 35,00</h3>
+                        
+
+                        <button class="adicionar " onclick="Adicionar_Dipirona()"> +  </button>
+                            
+                        <button class="red" onclick="Remover_Carrinho_Dipirona()">-</button>
+
+                    </div>
+
+                    <div>
+                        
+                        <img src="fotos/inalador-removebg-preview.png" alt="">
+
+                        <h3> $ 70,00</h3>
+
+                        <button class="adicionar" onclick="Adicionar_Inalador()"> +  </button>
+
+                        <button class="red" onclick="Remover_Carrinho_Inalador()">-</button>
+
+                    </div>
+
+                    <div>
+                        
+                        <img src="fotos/massageador-removebg-preview.png" alt="">
+
+                        <h3> $ 135,50</h3>
+
+                        <button class="adicionar" onclick="Adicionar_Massageador()"> +  </button>
+
+                        <button class="red" onclick="Remover_Carrinho_Massageador()">-</button>
+
+                    </div>
+
+                    <div>
+                        
+                        <img src="fotos/domperidona-removebg-preview.png" alt="">
+
+                        <h3> $ 23,00</h3>
+
+                        <button class="adicionar" onclick="Adicionar_Domperidona()">  +  </button>
+
+                        <button class="red" onclick="Remover_Carrinho_Domperidona()">-</button>
+
+                    </div>
+
+                </section>
+
+                    
+                
+            </div>
+
+        </body>
+
+        <script src="codigo.js"></script>
+
+
+    </html>

@@ -1,0 +1,88 @@
+/* RESPONSIVO PARA PC */
+@media (max-width: 1078px)
+{
+    .products
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products div 
+    {
+        margin: 0px 32px 32px 32px;
+    }
+}
+
+/* RESPONSIVO PARA IPAD */
+@media (max-width: 886px)
+
+{
+    header .header-name h1
+    {
+        font-size: 50px;
+    }
+
+    header .header-shopping-cart img
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    header .header-shopping-cart h3
+    {
+        font-size:50px;
+    }
+
+}
+
+/*  RESPONSIVO PARA CELULAR */
+@media (max-width: 591px)
+{
+
+    header .header-name h1
+    {
+        font-size: 30px;
+    }
+
+    header .header-shopping-cart img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    header .header-logo img
+    {
+        width: 90px;
+        height: 90px;   
+    }
+
+}
+
+@media (max-width: 421px)
+{
+
+    header .header-logo img
+    {
+        width: 80px;
+        height: 55px;   
+    }
+
+    header .header-name h1
+    {
+        font-size: 24px;
+    }
+
+    header .header-shopping-cart img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    header .header-shopping-cart h3
+    {
+        font-size:35px;
+    }
+
+}
